@@ -32,6 +32,7 @@
 		68DDCEC1281835A1003AE585 /* CharacterListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DDCEC0281835A1003AE585 /* CharacterListViewControllerTests.swift */; };
 		68DDCEC5281845D6003AE585 /* CharacterDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DDCEC4281845D6003AE585 /* CharacterDetailViewModelTests.swift */; };
 		68DDCED2281879CD003AE585 /* characterListResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 68DDCED1281879CD003AE585 /* characterListResponse.json */; };
+		68DDCED528189A2A003AE585 /* CharacterDetailViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DDCED428189A2A003AE585 /* CharacterDetailViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		68DDCEC0281835A1003AE585 /* CharacterListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewControllerTests.swift; sourceTree = "<group>"; };
 		68DDCEC4281845D6003AE585 /* CharacterDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewModelTests.swift; sourceTree = "<group>"; };
 		68DDCED1281879CD003AE585 /* characterListResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = characterListResponse.json; sourceTree = "<group>"; };
+		68DDCED428189A2A003AE585 /* CharacterDetailViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				68DDCEC0281835A1003AE585 /* CharacterListViewControllerTests.swift */,
+				68DDCED428189A2A003AE585 /* CharacterDetailViewControllerTests.swift */,
 			);
 			path = ViewControllerTests;
 			sourceTree = "<group>";
@@ -435,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68DDCEBF2818065D003AE585 /* CharacterListViewModelTests.swift in Sources */,
+				68DDCED528189A2A003AE585 /* CharacterDetailViewControllerTests.swift in Sources */,
 				68DDCEC5281845D6003AE585 /* CharacterDetailViewModelTests.swift in Sources */,
 				68DDCEC1281835A1003AE585 /* CharacterListViewControllerTests.swift in Sources */,
 			);
