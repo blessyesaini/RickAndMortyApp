@@ -131,8 +131,7 @@
 		68C2BAF0281708FF00488BB5 /* RickAndMortyApp */ = {
 			isa = PBXGroup;
 			children = (
-				68C2BAF12817090000488BB5 /* AppDelegate.swift */,
-				68C2BAF32817090000488BB5 /* SceneDelegate.swift */,
+				68DDCED328189755003AE585 /* SupportingFiles */,
 				68C2BB2B28171CA700488BB5 /* Models */,
 				68C2BB3528172FA600488BB5 /* View Models */,
 				68C2BB3F2817479800488BB5 /* Coordinator */,
@@ -267,6 +266,15 @@
 			isa = PBXGroup;
 			children = (
 				68DDCED1281879CD003AE585 /* characterListResponse.json */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		68DDCED328189755003AE585 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				68C2BAF12817090000488BB5 /* AppDelegate.swift */,
+				68C2BAF32817090000488BB5 /* SceneDelegate.swift */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
