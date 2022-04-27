@@ -96,7 +96,7 @@ class CharactersListViewController: UIViewController, UITableViewDelegate, UITab
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if let viewData = viewData {
         let searchValue = viewModel.textRemovingWhiteSpace(for: searchText.lowercased())
-            searchedViewData = viewData.filter({$0.name?.lowercased().prefix(searchValue.count) ?? "" == searchValue })
+            searchedViewData =  viewData.filter({$0.name?.lowercased().contains(searchValue) == true})
         }
         isSearching = true
         if let searchedViewData = searchedViewData {
